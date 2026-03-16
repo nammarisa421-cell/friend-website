@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ประวัติเพื่อนในห้อง</title>
+
+<style>
+
+body{
+    font-family: Tahoma, sans-serif;
+    background: linear-gradient(to right,#ffd6e7,#d6f0ff);
+    margin:0;
+    text-align:center;
+}
+
+/* หัวข้อ */
+h1{
+    color:#ff4f8b;
+    padding:25px;
+    font-size:40px;
+}
+
+/* กล่องรวมเพื่อน */
+.container{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    padding:20px;
+}
+
+/* การ์ดเพื่อน */
+.card{
+    background:white;
+    border-radius:10px;
+    padding:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+/* เอฟเฟกต์ตอนเอาเมาส์ชี้การ์ด */
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* รูปภาพ */
+.card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid #ffb6d9;
+    transition:0.3s;
+}
+
+/* เอฟเฟกต์ขยายรูป */
+.card img:hover{
+    transform:scale(1.1);
+}
+
+/* ชื่อ */
+.name{
+    font-weight:bold;
+    font-size:18px;
+    color:#ff4f8b;
+}
+
+/* ข้อมูล */
+.info{
+    font-size:14px;
+    color:#555;
+}
+/* ปุ่ม */
+button{
+    margin-top:12px;
+    padding:10px 18px;
+    border:none;
+    border-radius:25px;
+    background:linear-gradient(45deg,#fa9efa,#e71ebc);
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+</style>
+</head>
+
+<body>
+
+<h1>💗 ประวัติเพื่อนในห้อง 💗</h1>
+
+<div class="container">
+
+<div class="card">
+<img src="art.jpg">
+<p class="name">อาร์นักบิด</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : เล่นเกม</p>
+<a href="mari1.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="oum.jpg">
+<p class="name">อุ้มอิ่ม</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : ดูหนัง</p>
+<a href="mari2.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="pai.jpg">
+<p class="name">ไผ่</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : เล่นกีฬา</p>
+<a href="mari3.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="mag.jpg">
+<p class="name">แม็กกี้</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : นอน</p>
+<a href="mari4.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="marisa.jpeg">
+<p class="name">มาริสา</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : กิน</p>
+<a href="mari5.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="pornpan.jpeg">
+<p class="name">พรพรรณ</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : เล่นอินเทอร์เน็ต</p>
+<a href="mari6.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="yam.jpeg">
+<p class="name">พี่แยม</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : ดูซีรีส์</p>
+<a href="mari7.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="api.jpeg">
+<p class="name">อภิสิทธิ์</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : ฟังเพลง</p>
+<a href="mari8.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="paween.jpeg">
+<p class="name">ปวีณ์ธิดา</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : เล่นกีฬา</p>
+<a href="mari9.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+<div class="card">
+<img src="sitthichai.jpeg">
+<p class="name">สิทธิชัย</p>
+<p class="info">สาขา : เทคโนโลยีธุรกิจดิจิทัล</p>
+<p class="info">งานอดิเรก : เล่นเกม</p>
+<a href="mari10.html"><button>ดูประวัติเพิ่มเติม</button></a>
+</div>
+
+</div>
+
+</body>
